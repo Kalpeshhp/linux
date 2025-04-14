@@ -1,0 +1,283 @@
+#fabric_form .file-drop-zone {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#fabric_form .file-upload-indicator {
+    display: none;
+}
+
+#fabric_form .file-preview-frame {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#fabric_form .file-preview .close {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #333;
+    background: #fff;
+    right: -14px;
+    top: -14px;
+    padding: 2px 6px;
+    z-index: 1;
+}
+
+#fabric_form .file-preview {
+    border: 0;
+    height: 165px;
+}
+
+#fabric_form .file-preview-frame .kv-file-content {
+    height: 85px;
+}
+
+#fabric_form .file-footer-caption {
+    padding: 5px;
+}
+
+#fabric_form .fileinput-cancel-button,
+#fabric_form .fileinput-remove-button,
+#fabric_form .fileinput-upload-button {
+    display: none;
+}
+
+#fabric_form .file-drop-zone {
+    border: 1px solid #ddd;
+}
+
+#fabric_form .file-preview-thumbnails {
+    border: 0;
+}
+
+#fabric_form .kv-fileinput-caption {
+    display: none;
+}
+
+#fabric_form .input-group-append {
+    margin-left: 0;
+}
+
+#fabric_form .file-drop-zone-title {
+    padding: 67px 15px;
+}
+
+.add-to-store input {
+    display: none;
+}
+
+.add-to-store label {
+    cursor: pointer;
+}
+
+/*.add-to-store input[type=checkbox]:checked+label {
+    background-color: #4CAF50;
+}*/
+.add-to-store input[type="checkbox"].remove_fabric:checked + label {
+    background-color: red !important;  /*vijay*/
+}
+.add-to-store input[type="checkbox"].move_fabric:checked + label {
+    background-color: #4CAF50;
+}
+
+
+/* .breadcrumb-line.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+} */
+.color-multiselect .select2-selection--multiple .select2-selection__choice {
+    padding: 0.3rem 0.5rem;
+}
+
+.color-multiselect .select2-container--default .select2-selection--multiple .select2-selection__clear {
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.color-multiselect {
+    border-bottom: 1px solid #ddd;
+}
+
+.color-multiselect .select2-selection--multiple .select2-selection__rendered {
+    margin-bottom: 5px;
+}
+
+.color-multiselect .select2-selection--multiple .select2-search--inline {
+    line-height: 0;
+}
+
+.color-multiselect:focus,
+.color-multiselect:active {
+    border-bottom: 2px solid #009688;
+}
+
+.user-pwd #password {
+    padding-right: 55px;
+}
+
+.user-pwd {
+    position: relative;
+}
+
+.user-pwd svg {
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    transform: translateY(-50%);
+}
+
+#showHide {
+    position: absolute;
+    bottom: 14px;
+    width: 35px;
+    cursor: pointer;
+    height: 10px;
+    opacity: 0;
+    z-index: 9999;
+}
+
+.show-hide-pwd svg {
+    position: absolute;
+    bottom: 14px;
+    width: 35px;
+    cursor: pointer;
+    top: 75%;
+    transform: translateY(-50%);
+}
+
+.login-page {
+    right: 12px;
+}
+
+/*Vendor Upload Fabric*/
+
+#upload_fabric_form .file-drop-zone {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#upload_fabric_form .file-upload-indicator {
+    display: none;
+}
+
+#upload_fabric_form .file-preview-frame {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#upload_fabric_form .file-preview .close {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #333;
+    background: #fff;
+    right: -14px;
+    top: -14px;
+    padding: 2px 6px;
+    z-index: 1;
+}
+
+#upload_fabric_form .file-preview {
+    border: 0;
+    height: 165px;
+}
+
+#upload_fabric_form .file-preview-frame .kv-file-content {
+    height: 85px;
+}
+
+#upload_fabric_form .file-footer-caption {
+    padding: 5px;
+}
+
+#upload_fabric_form .fileinput-cancel-button,
+#upload_fabric_form .fileinput-remove-button,
+#upload_fabric_form .fileinput-upload-button {
+    display: none;
+}
+
+#upload_fabric_form .file-drop-zone {
+    border: 1px solid #ddd;
+}
+
+#upload_fabric_form .file-preview-thumbnails {
+    border: 0;
+}
+
+#upload_fabric_form .kv-fileinput-caption {
+    display: none;
+}
+
+#upload_fabric_form .input-group-append {
+    margin-left: 0;
+}
+
+#upload_fabric_form .file-drop-zone-title {
+    padding: 67px 15px;
+}
+
+.sidebar-expand-md:not(.sidebar-component):not(.sidebar-fixed) .sidebar-content {
+    position: fixed;
+    width: inherit;
+}
+
+.content-wrapper {
+    margin-top: 30px;
+}
+
+.sidebar-expand-md.sidebar-component-right .sidebar-content {
+    position: fixed;
+}
+
+.header-navbar {
+    position: fixed;
+    width: 100%;
+}
+
+.alert-success {
+    color: #1d643b;
+background-color:#d7f3e3;
+border-color:#c7eed8;
+}
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid 
+    transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-radius: .25rem;
+}
+
+/**/
+#order_2 .breadcrumb-line{
+    position: fixed;
+    z-index: 99;
+    width: calc(100% - 37.5rem);
+}
+#order_2 #listing{
+    margin-top: 76px;
+}
+.navbar-brand img {
+    height: 1.2rem;
+}
+
+.sidebar-expand-md.sidebar-component-right .sidebar-content .card-body {
+    height: calc(100vh - 150px);
+   overflow-y: scroll;
+}
+/* shubham Added below */
+.ignore{
+    display: none;
+}
+/* shubham working end */

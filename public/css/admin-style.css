@@ -1,0 +1,54 @@
+.admin-login-form{
+    background: url(../images/login-banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+.bg-opacity{
+    width: 100%;
+    background: #4009077d;
+    height: 100%;
+}
+.login-form .card{
+    box-shadow: none;
+    background-color: #ffffff42;
+    border: 0;
+}
+.login-form .border-slate-300 {
+    border-color: #fff;
+}
+.login-form .text-slate-300 ,.login-form .form-control{
+    color: #fff;
+}
+.login-form .text-muted {
+    color: #fff!important;
+}
+.login-form .btn {
+    background: #f13e37;
+}
+.login-form a{
+    color: #f13e37;
+}
+
+.login-form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+}
+.login-form ::-moz-placeholder { /* Firefox 19+ */
+    color: #fff;
+}
+.login-form :-ms-input-placeholder { /* IE 10+ */
+    color: #fff;
+}
+.login-form :-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus{
+  /* -webkit-text-fill-color: #fff; */
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.data-reload[data-action=reload]:after {
+    line-height: normal;
+}
